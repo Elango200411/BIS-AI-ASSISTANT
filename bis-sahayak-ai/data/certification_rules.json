@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "description": "Demo knowledge base of BIS certification and compliance rules for BIS Sahayak AI prototype.",
+    "disclaimer": "This is synthetic demo data created for hackathon prototyping. Certification categories, product lists, and process details are illustrative. The official list of products under compulsory certification is notified by the Government of India. Always verify at https://www.bis.gov.in.",
+    "version": "0.1.0",
+    "created": "2025-08-26",
+    "total_records": 10
+  },
+  "certification_rules": [
+    {
+      "rule_id": "CERT-001",
+      "title": "Electronics and IT Products — Compulsory Registration",
+      "product_category": "Electronics & IT",
+      "description": "Certain electronics and IT products must be registered with BIS before sale or import into India. The product must bear the BIS standard mark (IS logo with R-number). This requirement is notified under the Electronics and Information Technology Goods Order.",
+      "applicable_products": ["LED bulbs and luminaires", "Mobile phones and tablets", "Laptops and notebooks", "Power adapters and chargers", "AV equipment", "IT equipment"],
+      "compliance_requirements": [
+        "Product testing from BIS-recognised laboratory",
+        "Online registration via BIS CRS portal",
+        "Standard mark (IS logo + R-number) on product and packaging",
+        "Registration renewal as per BIS schedule"
+      ],
+      "penalty_for_non_compliance": "Products not registered may be seized or prohibited from sale under applicable government orders.",
+      "keywords": ["electronics registration", "CRS", "mobile phone", "LED", "compulsory registration", "IT products"]
+    },
+    {
+      "rule_id": "CERT-002",
+      "title": "Cement — Compulsory BIS Certification",
+      "product_category": "Building Materials",
+      "description": "Cement (all types and grades) is covered under compulsory BIS certification. Manufacturers must obtain an ISI mark license from BIS before cement can be sold in the Indian market.",
+      "applicable_products": ["OPC 33, 43, 53 grade", "PPC (Portland Pozzolana Cement)", "PSC (Portland Slag Cement)", "SRC (Sulphate Resisting Cement)", "Complex cements"],
+      "compliance_requirements": [
+        "BIS license under Scheme I for the relevant IS code",
+        "Factory inspection and production unit approval",
+        "Regular testing of cement samples at BIS-approved labs",
+        "ISI mark on cement bags with license number"
+      ],
+      "penalty_for_non_compliance": "Manufacturing or selling cement without BIS certification is an offence under the BIS Act, 1986.",
+      "keywords": ["cement certification", "OPC", "PPC", "ISI mark", "building materials", "compulsory certification"]
+    },
+    {
+      "rule_id": "CERT-003",
+      "title": "Steel Products — BIS Certification",
+      "product_category": "Structural Steel",
+      "description": "Certain steel products, including bars for concrete reinforcement and structural steel, are covered under compulsory BIS certification.",
+      "applicable_products": ["High strength deformed steel bars (IS 1786)", "Structural steel sections (IS 2062)", "Cold rolled steel strips", "Steel wire products"],
+      "compliance_requirements": [
+        "BIS license for the applicable steel IS code",
+        "Chemical composition and mechanical property testing",
+        "Regular factory audits by BIS",
+        "ISI mark on products or tags"
+      ],
+      "penalty_for_non_compliance": "Sale of uncertified steel products is subject to BIS Act provisions.",
+      "keywords": ["steel certification", "rebar", "structural steel", "Fe 500", "Fe 550", "ISI mark"]
+    },
+    {
+      "rule_id": "CERT-004",
+      "title": "Household Electrical Appliances — Safety Standards",
+      "product_category": "Electrical Appliances",
+      "description": "Household electrical appliances must comply with safety standards as specified in the IS 302 series. Products under compulsory certification must bear the ISI mark.",
+      "applicable_products": ["Electric irons", "Room heaters", "Immersion water heaters", "Electric stoves", "Ceiling fans", "Electric motors up to 1 HP"],
+      "compliance_requirements": [
+        "Testing per IS 302 safety standards",
+        "BIS license under Scheme I",
+        "Periodic factory and product inspections",
+        "ISI marking on product and packaging"
+      ],
+      "penalty_for_non_compliance": "Products found non-compliant may be recalled and manufacturer subject to BIS Act penalties.",
+      "keywords": ["electrical appliances", "safety", "IS 302", "electric iron", "ceiling fan", "heater", "household appliances"]
+    },
+    {
+      "rule_id": "CERT-005",
+      "title": "Solar Water Heating Systems — BIS Certification",
+      "product_category": "Renewable Energy",
+      "description": "Solar water heating systems are covered under compulsory BIS certification. Both flat-plate and evacuated tube collector systems must conform to applicable IS codes.",
+      "applicable_products": ["Flat plate collector solar water heaters", "Evacuated tube collector solar water heaters", "Integrated solar water heaters"],
+      "compliance_requirements": [
+        "Performance testing per IS 14680 and related standards",
+        "BIS license for solar water heating systems",
+        "Thermal performance and durability testing",
+        "ISI mark on systems and components"
+      ],
+      "penalty_for_non_compliance": "Non-certified solar water heating systems cannot be sold as BIS-certified products.",
+      "keywords": ["solar water heater", "solar thermal", "flat plate collector", "renewable energy", "BIS certification"]
+    },
+    {
+      "rule_id": "CERT-006",
+      "title": "Food Products — BIS Standards",
+      "product_category": "Food & Agriculture",
+      "description": "BIS has developed standards for various food products, though mandatory certification may be limited. Voluntary BIS certification signals quality assurance to consumers.",
+      "applicable_products": ["Packaged drinking water (IS 14543)", "Milk and milk products", "Spices and condiments", "Edible oils", "Honey"],
+      "compliance_requirements": [
+        "Product testing at BIS-recognised labs",
+        "Voluntary or compulsory certification as notified",
+        "Labeling compliance with IS code reference",
+        "Periodic renewal and surveillance"
+      ],
+      "penalty_for_non_compliance": "Non-compliance with notified food product standards may attract FSSAI and BIS enforcement actions.",
+      "keywords": ["food products", "packaged drinking water", "milk", "spices", "food safety", "BIS standards"]
+    },
+    {
+      "rule_id": "CERT-007",
+      "title": "Automotive Components — BIS Certification",
+      "product_category": "Automotive",
+      "description": "Certain automotive components and accessories are covered under BIS certification. Compliance ensures safety and interoperability in the Indian automotive market.",
+      "applicable_products": ["Tyres and tubes", "Automotive glass", "Automotive lubricants", "Vehicle horns", "Reflectors and lighting equipment"],
+      "compliance_requirements": [
+        "Testing per relevant automotive IS codes",
+        "BIS license for covered automotive products",
+        "Factory and product inspections",
+        "ISI marking on automotive components"
+      ],
+      "penalty_for_non_compliance": "Uncertified automotive components are subject to seizure and BIS enforcement.",
+      "keywords": ["automotive", "tyres", "vehicle parts", "automobile", "BIS certification", "transport"]
+    },
+    {
+      "rule_id": "CERT-008",
+      "title": "Toys — Safety Certification",
+      "product_category": "Consumer Products",
+      "description": "Toys sold in India must comply with safety requirements as per IS 9873 series. BIS has introduced compulsory registration for certain toy categories.",
+      "applicable_products": ["Toys for children under 14 years", "Electrically operated toys", "Chemical toys (chemistry sets)", "Ride-on toys"],
+      "compliance_requirements": [
+        "Safety testing per IS 9873 series",
+        "BIS registration for notified toy categories",
+        "Age grading and warning labels",
+        "Compliance with small parts and sharp edge requirements"
+      ],
+      "penalty_for_non_compliance": "Non-compliant toys may be prohibited from sale under consumer protection and BIS regulations.",
+      "keywords": ["toys", "toy safety", "children", "IS 9873", "BIS registration", "consumer products"]
+    },
+    {
+      "rule_id": "CERT-009",
+      "title": "Textiles and Apparel — BIS Standards",
+      "product_category": "Textiles",
+      "description": "BIS has developed numerous standards for textiles and apparel, covering fiber composition, colorfastness, dimensional stability, and safety requirements.",
+      "applicable_products": ["Cotton textiles", "Synthetic textiles", "Woolen textiles", "Readymade garments", "Jute products"],
+      "compliance_requirements": [
+        "Testing per relevant textile IS codes",
+        "Voluntary BIS certification available",
+        "Labeling with fiber composition and IS code reference",
+        "Quality assurance per BIS standards"
+      ],
+      "penalty_for_non_compliance": "Mislabeling of fiber composition may attract Consumer Protection Act provisions.",
+      "keywords": ["textiles", "cotton", "garments", "apparel", "fiber composition", "jute", "quality standards"]
+    },
+    {
+      "rule_id": "CERT-010",
+      "title": "Medical Devices — BIS Certification",
+      "product_category": "Medical Devices",
+      "description": "Certain medical devices and equipment are covered under BIS standards. Compliance with IS codes ensures safety and performance of medical devices used in Indian healthcare.",
+      "applicable_products": ["Surgical instruments", "Medical gloves", "Hypodermic needles", "Blood pressure monitors", "Pulse oximeters"],
+      "compliance_requirements": [
+        "Testing per relevant medical device IS codes",
+        "BIS or CDSCO certification as applicable",
+        "Biocompatibility and safety testing",
+        "Labeling and traceability requirements"
+      ],
+      "penalty_for_non_compliance": "Non-compliant medical devices may be restricted from sale under health and safety regulations.",
+      "keywords": ["medical devices", "surgical instruments", "healthcare", "patient safety", "biocompatibility"]
+    }
+  ]
+}

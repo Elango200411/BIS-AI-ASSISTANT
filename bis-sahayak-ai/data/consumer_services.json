@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "description": "Demo knowledge base of BIS consumer-facing services for BIS Sahayak AI prototype.",
+    "disclaimer": "This is synthetic demo data created for hackathon prototyping. Consumer service descriptions, eligibility, and contact details are illustrative. Authoritative information is available at https://www.bis.gov.in and BIS regional offices.",
+    "version": "0.1.0",
+    "created": "2025-08-26",
+    "total_records": 5
+  },
+  "consumer_services": [
+    {
+      "service_id": "CS-001",
+      "title": "Consumer Complaint Filing",
+      "description": "Consumers can file complaints with BIS regarding products that are sold with fake or counterfeit BIS marks, products sold without required BIS certification, or products that fail to meet the standards they claim to comply with.",
+      "eligibility": "Any consumer, business, or enforcement officer in India.",
+      "how_to_access": [
+        "Visit the BIS website (www.bis.gov.in) and navigate to the complaint section",
+        "Download and use the BIS Care mobile app to report issues",
+        "Visit the nearest BIS Regional Office in person",
+        "Send complaint by post to the concerned BIS Branch Office"
+      ],
+      "required_information": [
+        "Details of the product (name, brand, manufacturer)",
+        "Evidence of non-compliance (photographs, purchase receipt)",
+        "Description of the issue",
+        "Complainant's contact information"
+      ],
+      "keywords": ["consumer complaint", "fake mark", "counterfeit", "report", "enforcement", "non-compliance"]
+    },
+    {
+      "service_id": "CS-002",
+      "title": "Hallmark Verification for Consumers",
+      "description": "Consumers who have purchased hallmarked gold or silver jewellery can verify the authenticity of the hallmark using the BIS Care mobile application or by contacting the hallmarking centre.",
+      "eligibility": "Any consumer who has purchased BIS-hallmarked jewellery.",
+      "how_to_access": [
+        "Download the BIS Care app (available on Android and iOS)",
+        "Open the app and select 'Verify Hallmark'",
+        "Enter the hallmark number embossed on the jewellery",
+        "View the verification result showing purity grade, hallmarking centre, and year"
+      ],
+      "required_information": [
+        "Hallmark number (embossed on the jewellery item)",
+        "BIS Care app on smartphone"
+      ],
+      "keywords": ["verify hallmark", "BIS Care app", "gold verification", "silver verification", "hallmark number", "consumer verification"]
+    },
+    {
+      "service_id": "CS-003",
+      "title": "BIS License Verification",
+      "description": "Consumers and businesses can verify whether a manufacturer holds a valid BIS certification license for a specific product. This helps identify genuinely certified products versus those using marks without a valid license.",
+      "eligibility": "Any consumer, business, or regulatory authority.",
+      "how_to_access": [
+        "Visit the BIS website and use the license search tool",
+        "Use the BIS Care app to check license status",
+        "Contact the nearest BIS Branch Office for assistance"
+      ],
+      "required_information": [
+        "Manufacturer name or license number",
+        "Product type and applicable IS code"
+      ],
+      "keywords": ["license verification", "BIS license", "manufacturer verification", "certification check", "valid license"]
+    },
+    {
+      "service_id": "CS-004",
+      "title": "Information on Indian Standards",
+      "description": "Consumers and businesses can access information about Indian Standards, including the scope, requirements, and applicability of specific IS codes. BIS publishes standards and makes some available for free download.",
+      "eligibility": "Any individual, business, or organisation interested in Indian Standards.",
+      "how_to_access": [
+        "Visit the BIS website (www.bis.gov.in) — Standards section",
+        "Search the BIS catalogue for specific standard numbers",
+        "Purchase standards from BIS (online or at BIS sales counters)",
+        "Some standards are available for free on the BIS website"
+      ],
+      "required_information": [
+        "Standard number (e.g., IS 456:2000) or topic keyword"
+      ],
+      "keywords": ["Indian standards", "IS code", "standard search", "BIS catalogue", "standards information", "buy standard"]
+    },
+    {
+      "service_id": "CS-005",
+      "title": "BIS Regional Office Services",
+      "description": "BIS has regional and branch offices across India that provide in-person services including application submission, certification queries, standards information, and grievance redressal.",
+      "eligibility": "Any individual, manufacturer, or business in India.",
+      "how_to_access": [
+        "Find the nearest BIS Regional/Branch Office via the BIS website",
+        "Visit during office hours (typically Monday to Saturday, 9:30 AM to 6:00 PM)",
+        "Carry relevant documents and identification",
+        "Some services are also available online via the BIS portal"
+      ],
+      "services_available": [
+        "Product certification application submission",
+        "Standards information and sales",
+        "Hallmarking queries",
+        "Complaint and grievance filing",
+        "General information and guidance"
+      ],
+      "keywords": ["regional office", "branch office", "BIS office", "in-person service", "office address", "walk-in", "contact BIS"]
+    }
+  ]
+}

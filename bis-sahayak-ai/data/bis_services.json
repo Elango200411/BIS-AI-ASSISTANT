@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "description": "Demo knowledge base of BIS services for BIS Sahayak AI prototype.",
+    "disclaimer": "This is synthetic demo data created for hackathon prototyping. Service descriptions, process steps, and document lists are illustrative. Always verify authoritative requirements at https://www.bis.gov.in or the relevant BIS regional office before initiating any application.",
+    "version": "0.1.0",
+    "created": "2025-08-26",
+    "total_records": 10
+  },
+  "services": [
+    {
+      "service_id": "SVC-001",
+      "name": "BIS Product Certification — Scheme I (ISI Mark)",
+      "description": "The primary product certification scheme administered by BIS under the Bureau of Indian Standards Act, 1986. Grants license to use the ISI mark on products that conform to relevant Indian Standards. Covers both domestic and foreign manufacturers.",
+      "target_user": "Indian manufacturers, foreign manufacturers (via FMCS), and their authorised agents seeking BIS certification for products covered under compulsory certification.",
+      "required_documents": [
+        "Application form (prescribed BIS format)",
+        "Manufacturing process flow diagram",
+        "Quality management system documentation",
+        "Test reports from BIS-recognised laboratory",
+        "Factory layout and machinery list",
+        "Raw material procurement details",
+        "Authorization letter (for agents)"
+      ],
+      "process_steps": [
+        "Submit application to the relevant BIS Branch Office",
+        "BIS reviews documentation and conducts preliminary assessment",
+        "Factory inspection by BIS officers",
+        "Product samples drawn and tested at BIS-recognised lab",
+        "Evaluation of test results against applicable Indian Standard",
+        "Grant of license if all requirements are met",
+        "Surveillance audits and renewal as per BIS schedule"
+      ],
+      "keywords": ["ISI mark", "product certification", "Scheme I", "BIS license", "certification", "quality mark", "compulsory certification"]
+    },
+    {
+      "service_id": "SVC-002",
+      "name": "Compulsory Registration Scheme (CRS)",
+      "description": "Government-mandated registration scheme for specified electronics and IT products. Manufacturers must register their products with BIS before selling in India. Notified under the Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order.",
+      "target_user": "Manufacturers and importers of electronics and IT products (LEDs, mobile phones, tablets, laptops, power adapters, etc.) sold in India.",
+      "required_documents": [
+        "Online CRS application via BIS portal",
+        "Test reports from BIS-recognised laboratory",
+        "Manufacturer declaration of conformity",
+        "Product specifications and photographs",
+        "Authorised Indian Representative (AIR) details (for foreign manufacturers)"
+      ],
+      "process_steps": [
+        "Obtain test report from BIS-recognised lab",
+        "Register on BIS online portal and fill CRS application",
+        "Upload test reports and required documents",
+        "Pay prescribed application and registration fees",
+        "BIS reviews application and grants registration",
+        "Affix standard mark (IS logo + R-number) on product"
+      ],
+      "keywords": ["CRS", "compulsory registration", "electronics registration", "IS logo", "R-number", "electronics", "IT products", "LED", "mobile phone"]
+    },
+    {
+      "service_id": "SVC-003",
+      "name": "Hallmarking of Gold and Silver Articles",
+      "description": "BIS hallmarking scheme ensures the purity of gold and silver articles. BIS-recognised Assaying and Hallmarking Centres test and hallmark articles. Includes three marks: BIS logo, purity grade, and hallmarking centre's identification mark.",
+      "target_user": "Jewellers, goldsmiths, and consumers seeking assurance of precious metal purity.",
+      "required_documents": [
+        "Registration of jeweller with BIS",
+        "Hallmarking request form",
+        "Details of articles to be hallmarked",
+        "Payment of hallmarking charges"
+      ],
+      "process_steps": [
+        "Jeweller registers with BIS for hallmarking",
+        "Articles submitted to nearest BIS-recognised Assaying and Hallmarking Centre",
+        "Centre tests the precious metal content using XRF or fire assay methods",
+        "If purity meets standard, hallmark is affixed",
+        "Hallmarked article returned to jeweller",
+        "Consumer can verify hallmark via BIS Care app"
+      ],
+      "keywords": ["hallmarking", "gold hallmark", "silver hallmark", "purity", "jewellery", "assaying", "BIS care app", "gold purity"]
+    },
+    {
+      "service_id": "SVC-004",
+      "name": "Foreign Manufacturers Certification Scheme (FMCS)",
+      "description": "Enables foreign manufacturers to obtain BIS certification for their products without establishing a physical presence in India. BIS conducts factory inspections abroad.",
+      "target_user": "Manufacturers located outside India who wish to export and sell certified products in the Indian market.",
+      "required_documents": [
+        "FMCS application form",
+        "Authorised Indian Representative (AIR) appointment letter",
+        "Manufacturing process documentation",
+        "Quality management system certificates",
+        "Test reports from BIS-recognised lab",
+        "Factory details and production capacity"
+      ],
+      "process_steps": [
+        "Appoint an Authorised Indian Representative (AIR)",
+        "Submit FMCS application to BIS headquarters",
+        "BIS reviews documentation and schedules foreign factory audit",
+        "BIS officers conduct on-site factory inspection",
+        "Product samples tested at BIS-recognised laboratory",
+        "License granted if requirements are satisfied",
+        "Periodic surveillance and renewal"
+      ],
+      "keywords": ["FMCS", "foreign manufacturer", "export to India", "BIS certification abroad", "AIR", "authorised Indian representative", "international certification"]
+    },
+    {
+      "service_id": "SVC-005",
+      "name": "Laboratory Recognition Scheme",
+      "description": "BIS recognises testing laboratories that meet specified competence criteria. Recognised laboratories conduct product testing for BIS certification purposes.",
+      "target_user": "Testing laboratories seeking BIS recognition; manufacturers needing test reports from recognised labs.",
+      "required_documents": [
+        "Application for laboratory recognition",
+        "NABL accreditation certificate (or equivalent)",
+        "Scope of accreditation details",
+        "Equipment list and calibration records",
+        "Quality manual and technical procedures",
+        "Staff qualifications and competency records"
+      ],
+      "process_steps": [
+        "Laboratory submits application with supporting documents",
+        "BIS reviews documentation and assesses scope",
+        "On-site assessment of laboratory capabilities",
+        "Proficiency testing or inter-laboratory comparison (if required)",
+        "Grant of recognition if criteria are met",
+        "Annual surveillance and renewal"
+      ],
+      "keywords": ["laboratory recognition", "testing lab", "NABL", "BIS recognised lab", "product testing", "test report", "quality testing"]
+    },
+    {
+      "service_id": "SVC-006",
+      "name": "Standardization — Technical Committee Participation",
+      "description": "BIS operates Sectoral Councils and Technical Committees for the development of Indian Standards. Stakeholders can participate in the standard-setting process.",
+      "target_user": "Industry professionals, academicians, government representatives, and consumer organisations interested in contributing to Indian Standards development.",
+      "required_documents": [
+        "Expression of interest to BIS",
+        "Organisation profile and domain expertise",
+        "Nomination of technical expert"
+      ],
+      "process_steps": [
+        "Submit expression of interest to the relevant BIS division",
+        "BIS evaluates expertise and nominates member",
+        "Member participates in Technical Committee meetings",
+        "Draft Indian Standard circulated for public review",
+        "Comments incorporated and standard finalised",
+        "Standard published by BIS"
+      ],
+      "keywords": ["standardization", "technical committee", "committee participation", "standard development", "draft standard", "public review"]
+    },
+    {
+      "service_id": "SVC-007",
+      "name": "BIS Care App — Verification Services",
+      "description": "BIS Care mobile application allows consumers and businesses to verify the authenticity of BIS hallmarked jewellery, certified products, and check the validity of BIS licenses.",
+      "target_user": "Consumers, jewellers, retailers, and enforcement officers.",
+      "required_documents": [
+        "BIS Care app (available on Google Play Store and Apple App Store)",
+        "Hallmark number or license number for verification"
+      ],
+      "process_steps": [
+        "Download and install BIS Care app",
+        "Select the verification service (hallmark / license / CRS)",
+        "Enter the relevant number or scan the QR code",
+        "App displays verification result and product details"
+      ],
+      "keywords": ["BIS care app", "hallmark verification", "license verification", "QR code", "mobile app", "consumer protection"]
+    },
+    {
+      "service_id": "SVC-008",
+      "name": "BIS Logo and Standard Mark Usage License",
+      "description": "Licence to use the BIS standard mark (ISI mark, CRS mark, or hallmark) on certified products. The mark signifies conformity to the relevant Indian Standard and BIS certification.",
+      "target_user": "BIS-certified manufacturers and licensees.",
+      "required_documents": [
+        "Valid BIS certification license",
+        "Mark usage application (if applying for first time)",
+        "Mark reproduction specifications"
+      ],
+      "process_steps": [
+        "Obtain valid BIS product certification license",
+        "Apply for standard mark usage rights",
+        "Receive mark specifications and guidelines from BIS",
+        "Affix mark on product per BIS marking guidelines",
+        "Mark usage is subject to periodic BIS audit"
+      ],
+      "keywords": ["standard mark", "ISI mark", "BIS logo", "mark usage", "product marking", "certification mark"]
+    },
+    {
+      "service_id": "SVC-009",
+      "name": "BIS Conformity Assessment — Education Products",
+      "description": "BIS certification scheme for educational products and materials as per relevant Indian Standards. Ensures quality and safety of educational items.",
+      "target_user": "Manufacturers of educational kits, laboratory equipment, stationery, and related products.",
+      "required_documents": [
+        "Application form for certification",
+        "Product specifications and test reports",
+        "Manufacturing process details",
+        "Quality assurance documentation"
+      ],
+      "process_steps": [
+        "Identify applicable Indian Standard for the educational product",
+        "Submit application and test reports to BIS",
+        "BIS evaluates documentation and conducts factory inspection",
+        "Samples tested for conformity",
+        "Certification granted upon successful evaluation"
+      ],
+      "keywords": ["education products", "laboratory equipment", "stationery", "educational kits", "quality certification"]
+    },
+    {
+      "service_id": "SVC-010",
+      "name": "BIS Complaint and Grievance Redressal",
+      "description": "Mechanism for consumers and stakeholders to lodge complaints regarding misuse of BIS marks, non-conforming products, or issues with BIS services.",
+      "target_user": "Consumers, industry stakeholders, and enforcement agencies.",
+      "required_documents": [
+        "Complaint form (online or physical)",
+        "Supporting evidence (photographs, receipts, product details)",
+        "Contact information of complainant"
+      ],
+      "process_steps": [
+        "Lodge complaint via BIS website, app, or regional office",
+        "BIS registers the complaint and assigns reference number",
+        "Preliminary investigation by BIS enforcement team",
+        "Field inspection and product sampling (if required)",
+        "Action taken and complainant informed of outcome"
+      ],
+      "keywords": ["complaint", "grievance", "enforcement", "misuse of mark", "consumer complaint", "product quality complaint"]
+    }
+  ]
+}

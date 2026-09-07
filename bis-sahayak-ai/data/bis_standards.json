@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "description": "Demo knowledge base of Indian Standards for BIS Sahayak AI prototype.",
+    "disclaimer": "This is synthetic demo data created for hackathon prototyping. Standard numbers reference real IS codes where possible, but descriptions, applicability text, and metadata are generated. Always verify authoritative details at https://www.bis.gov.in before making compliance or procurement decisions.",
+    "version": "0.1.0",
+    "created": "2025-08-26",
+    "total_records": 15
+  },
+  "standards": [
+    {
+      "standard_id": "IS-001",
+      "standard_number": "IS 456:2000",
+      "title": "Plain and Reinforced Concrete — Code of Practice",
+      "category": "Civil Engineering",
+      "description": "Covers materials, design, and construction requirements for plain and reinforced concrete used in building and infrastructure works. Includes provisions for durability, workmanship, and quality control.",
+      "applicability": "Applicable to the design and construction of all plain and reinforced concrete structures in buildings, bridges, and other civil engineering works.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["concrete", "reinforced concrete", "construction", "building", "cement", "structural", "civil engineering", "code of practice"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-002",
+      "standard_number": "IS 12269:2013",
+      "title": "53 Grade Ordinary Portland Cement — Specification",
+      "category": "Building Materials",
+      "description": "Specifies requirements for 53 grade ordinary Portland cement (OPC), including physical and chemical properties, sampling, and testing methods.",
+      "applicability": "Manufacturers of OPC 53 grade cement for supply in India.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["cement", "OPC", "53 grade", "ordinary Portland cement", "building materials", "specification"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-003",
+      "standard_number": "IS 1786:2008",
+      "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement — Specification",
+      "category": "Structural Steel",
+      "description": "Specification for high strength deformed (HSD) steel bars and wires used in reinforced concrete. Covers grades Fe 415, Fe 500, Fe 500D, Fe 550, and Fe 550D.",
+      "applicability": "Steel manufacturers producing deformed bars for concrete reinforcement in India.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["steel", "reinforcement", "rebar", "HSD bars", "Fe 500", "structural steel", "concrete reinforcement"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-004",
+      "standard_number": "IS 12330:1988",
+      "title": "Sulphate Resisting Portland Cement — Specification",
+      "category": "Building Materials",
+      "description": "Specifies requirements for sulphate resisting Portland cement suitable for use in concrete exposed to sulphate-bearing soils and waters.",
+      "applicability": "Cement manufacturers producing sulphate resisting cement for construction in sulphate-prone environments.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["sulphate resisting cement", "SRC", "cement", "building materials", "durability", "sulphate attack"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-005",
+      "standard_number": "IS 1077:1986",
+      "title": "Common Burnt Clay Bricks — Specification",
+      "category": "Building Materials",
+      "description": "Covers requirements for common burnt clay building bricks used in walls and partitions, including classification, physical properties, and sampling.",
+      "applicability": "Brick manufacturers producing burnt clay bricks for general construction use.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["bricks", "burnt clay bricks", "building materials", "masonry", "wall construction"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-006",
+      "standard_number": "IS 2065:1998",
+      "title": "Electric Instantaneous Water Heaters (Storage Type) — Specification",
+      "category": "Electrical Appliances",
+      "description": "Covers safety requirements for electric instantaneous storage-type water heaters for household and similar purposes. Aligned with IEC 60335-2-21 principles.",
+      "applicability": "Manufacturers and importers of electric storage water heaters sold in India.",
+      "related_service": "Compulsory Registration Scheme (CRS)",
+      "keywords": ["water heater", "electric water heater", "storage water heater", "electrical appliances", "safety", "household appliances"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-007",
+      "standard_number": "IS 15501:2021",
+      "title": "Electric Instantaneous Water Heaters — Safety Requirements",
+      "category": "Electrical Appliances",
+      "description": "Safety standard for electric instantaneous water heaters. Covers protection against electric shock, fire hazards, and mechanical dangers.",
+      "applicability": "Manufacturers and importers of electric instantaneous water heaters.",
+      "related_service": "Compulsory Registration Scheme (CRS)",
+      "keywords": ["instantaneous water heater", "geyser", "electric heating", "safety", "electrical appliances"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-008",
+      "standard_number": "IS 10322:2017",
+      "title": "LED Lamps for General Lighting Services — Specification",
+      "category": "Electrical & Electronics",
+      "description": "Specifies performance requirements for LED lamps used for general lighting, including luminous flux, colour rendering, power factor, and lifetime.",
+      "applicability": "Manufacturers and importers of LED lamps for general lighting sold in India.",
+      "related_service": "Compulsory Registration Scheme (CRS)",
+      "keywords": ["LED", "LED lamp", "LED bulb", "lighting", "energy efficient", "general lighting", "electronics"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-009",
+      "standard_number": "IS 16221:2015",
+      "title": "Photovoltaic (PV) Module Design Qualification and Type Approval — Qualification Test Procedures",
+      "category": "Renewable Energy",
+      "description": "Defines design qualification and type approval test procedures for terrestrial photovoltaic modules, including environmental and mechanical stress tests.",
+      "applicability": "PV module manufacturers seeking type approval for modules installed in India.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["solar", "photovoltaic", "PV module", "solar panel", "renewable energy", "type approval"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-010",
+      "standard_number": "IS 13012:2012",
+      "title": "Leather — Sampling and Test Methods",
+      "category": "Leather & Textiles",
+      "description": "Provides standard methods for sampling and testing various types of leather, including physical and chemical tests for quality evaluation.",
+      "applicability": "Leather manufacturers, tanneries, and testing laboratories evaluating leather quality.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["leather", "testing", "sampling", "tannery", "quality", "textiles"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-011",
+      "standard_number": "IS 13286:2012",
+      "title": "Uninsulated Metallic Conductors for Electrical Wiring — Specification",
+      "category": "Electrical",
+      "description": "Covers requirements for bare aluminium and bare aluminium alloy conductors for overhead power transmission and distribution.",
+      "applicability": "Manufacturers of bare aluminium conductors for power utilities.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["aluminium conductor", "power transmission", "electrical wiring", "conductors", "overhead lines"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-012",
+      "standard_number": "IS 14680:2003",
+      "title": "Solar Water Heating Systems — Performance Test Methods",
+      "category": "Renewable Energy",
+      "description": "Specifies test methods for evaluating the thermal performance of flat-plate collector and evacuated tube collector based solar water heating systems.",
+      "applicability": "Manufacturers of solar water heating systems in India.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["solar water heater", "solar thermal", "flat plate collector", "evacuated tube", "renewable energy", "performance testing"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-013",
+      "standard_number": "IS 16102:2012",
+      "title": "Safety of Household and Similar Electrical Appliances — Part 2-24: Particular Requirements for Kitchen Appliances",
+      "category": "Electrical Appliances",
+      "description": "Particular safety requirements for kitchen appliances such as toasters, grills, roasters, and similar cooking appliances for household use.",
+      "applicability": "Manufacturers and importers of kitchen electrical appliances sold in India.",
+      "related_service": "Compulsory Registration Scheme (CRS)",
+      "keywords": ["kitchen appliances", "toaster", "grill", "cooking", "electrical appliances", "safety", "household"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-014",
+      "standard_number": "IS 9873:2018",
+      "title": "Safety of Toys — Part 1: Mechanical and Physical Properties",
+      "category": "Consumer Products",
+      "description": "Safety requirements for toys, covering mechanical and physical properties to prevent choking, sharp edge, and small parts hazards for children.",
+      "applicability": "Manufacturers and importers of toys for children under 14 years sold in India.",
+      "related_service": "Compulsory Registration Scheme (CRS)",
+      "keywords": ["toys", "children safety", "toy safety", "choking hazard", "consumer products", "BIS registration"],
+      "source": "BIS Catalogue — demo entry"
+    },
+    {
+      "standard_id": "IS-015",
+      "standard_number": "IS 302-2-24:2005",
+      "title": "Safety of Household and Similar Electrical Appliances — Part 2-24: Particular Requirements for Refrigerating Appliances",
+      "category": "Electrical Appliances",
+      "description": "Particular safety requirements for household refrigerating appliances, including food freezers and ice cream makers, covering electrical, thermal, and mechanical safety.",
+      "applicability": "Manufacturers and importers of household refrigeration appliances sold in India.",
+      "related_service": "BIS Certification (Scheme I)",
+      "keywords": ["refrigerator", "freezer", "household appliances", "electrical safety", "cooling", "food storage"],
+      "source": "BIS Catalogue — demo entry"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "description": "Demo FAQ knowledge base for BIS Sahayak AI prototype.",
+    "disclaimer": "This is synthetic demo data created for hackathon prototyping. Answers are illustrative and should not be treated as legal or regulatory advice. Always verify with official BIS sources at https://www.bis.gov.in.",
+    "version": "0.1.0",
+    "created": "2025-08-26",
+    "total_records": 10
+  },
+  "faqs": [
+    {
+      "faq_id": "FAQ-001",
+      "question": "What is BIS and what does it do?",
+      "answer": "The Bureau of Indian Standards (BIS) is the national standards body of India, established under the Bureau of Indian Standards Act, 1986. BIS is responsible for the harmonious development of standardization, quality certification, and testing of products in India. It develops Indian Standards (IS codes), operates product certification schemes, and administers the hallmarking of precious metals.",
+      "category": "General",
+      "keywords": ["BIS", "Bureau of Indian Standards", "what is BIS", "standards body", "Indian standards"]
+    },
+    {
+      "faq_id": "FAQ-002",
+      "question": "What is the ISI mark?",
+      "answer": "The ISI mark (Indian Standards Institute mark) is a certification mark for industrial products in India. It indicates that a product conforms to the Indian Standard (IS) as specified by BIS. Products covered under compulsory certification must carry the ISI mark before they can be legally sold in India. The mark signifies that the product has been tested and certified by BIS as conforming to the relevant standard.",
+      "category": "Certification",
+      "keywords": ["ISI mark", "certification mark", "quality mark", "product certification", "ISI"]
+    },
+    {
+      "faq_id": "FAQ-003",
+      "question": "How do I check if a product is BIS certified?",
+      "answer": "You can verify BIS certification through multiple methods: (1) Check for the ISI mark or CRS registration mark on the product and packaging. (2) Use the BIS Care mobile app to verify the mark or license number. (3) Visit the BIS website and use the license verification tool. (4) Contact the nearest BIS Branch Office for assistance. Always look for the license number alongside the mark.",
+      "category": "Consumer",
+      "keywords": ["verify BIS", "check certification", "BIS certified", "license verification", "BIS Care app"]
+    },
+    {
+      "faq_id": "FAQ-004",
+      "question": "What is the Compulsory Registration Scheme (CRS)?",
+      "answer": "The Compulsory Registration Scheme (CRS) is a government-mandated registration program for specified electronics and IT products. Under this scheme, manufacturers (including importers) must register their products with BIS before selling them in India. Products registered under CRS must bear the BIS standard mark (IS logo with an R-number). The scheme is notified by the Ministry of Electronics and Information Technology (MeitY).",
+      "category": "Certification",
+      "keywords": ["CRS", "compulsory registration", "electronics registration", "MeitY", "IT products"]
+    },
+    {
+      "faq_id": "FAQ-005",
+      "question": "What products require compulsory BIS certification?",
+      "answer": "Products that require compulsory BIS certification are notified by the Government of India. These typically include: cement, steel products (bars for concrete reinforcement), certain household electrical appliances (electric irons, heaters, ceiling fans, motors), packaged drinking water, and certain electronics/IT products under CRS (LED bulbs, mobile phones, laptops, power adapters, etc.). The list of compulsory certification products is periodically updated by the government.",
+      "category": "Compliance",
+      "keywords": ["compulsory certification", "mandatory products", "required certification", "BIS mandatory", "certification list"]
+    },
+    {
+      "faq_id": "FAQ-006",
+      "question": "How do I apply for BIS product certification?",
+      "answer": "To apply for BIS product certification: (1) Identify the applicable Indian Standard for your product. (2) Get your product tested at a BIS-recognised laboratory. (3) Submit the application form along with test reports and required documents to the relevant BIS Branch Office. (4) Pay the prescribed fees. (5) BIS will review the application and conduct a factory inspection. (6) If all requirements are met, BIS grants the certification license. For detailed guidance, visit www.bis.gov.in or contact your nearest BIS office.",
+      "category": "How-To",
+      "keywords": ["apply certification", "how to get BIS", "certification process", "BIS application", "product certification steps"]
+    },
+    {
+      "faq_id": "FAQ-007",
+      "question": "What is BIS hallmarking and how does it work?",
+      "answer": "BIS hallmarking is the process of certifying the purity of gold and silver jewellery. Under this scheme, BIS-recognised Assaying and Hallmarking Centres test the purity of precious metals and, if compliant, affix three marks: (1) the BIS logo, (2) the purity grade (fineness number like 916 for 22K gold), and (3) the hallmarking centre's identification mark. Consumers can verify the hallmark using the BIS Care mobile app.",
+      "category": "Hallmarking",
+      "keywords": ["hallmarking", "gold hallmark", "silver hallmark", "purity certification", "BIS hallmark"]
+    },
+    {
+      "faq_id": "FAQ-008",
+      "question": "Can foreign manufacturers get BIS certification?",
+      "answer": "Yes. Foreign manufacturers can obtain BIS certification through the Foreign Manufacturers Certification Scheme (FMCS). Under this scheme, a foreign manufacturer must appoint an Authorised Indian Representative (AIR) and apply to BIS. BIS then conducts a factory inspection abroad and tests product samples. If requirements are met, the BIS license is granted. The FMCS scheme enables overseas manufacturers to export certified products to the Indian market.",
+      "category": "Certification",
+      "keywords": ["foreign manufacturer", "FMCS", "export to India", "international certification", "AIR", "overseas manufacturer"]
+    },
+    {
+      "faq_id": "FAQ-009",
+      "question": "How do I report a product with a fake BIS mark?",
+      "answer": "If you encounter a product with a fake or counterfeit BIS mark, you can report it through: (1) The BIS Care mobile app — use the complaint feature. (2) The BIS website — file an online complaint. (3) Your nearest BIS Regional or Branch Office — visit in person with the product evidence. (4) By contacting BIS enforcement authorities. Provide photographs of the product, purchase details, and the suspected fake mark. BIS enforcement teams investigate such complaints.",
+      "category": "Consumer",
+      "keywords": ["fake mark", "counterfeit", "report fake", "complaint", "enforcement", "report"]
+    },
+    {
+      "faq_id": "FAQ-010",
+      "question": "What is the BIS Act and what are its key provisions?",
+      "answer": "The Bureau of Indian Standards Act, 1986 (BIS Act) is the legislation under which BIS operates. Key provisions include: establishment of BIS as the national standards body, provisions for development of Indian Standards, product certification schemes (voluntary and compulsory), hallmarking of precious metals, laboratory recognition, and enforcement against misuse of BIS marks. Penalties for violations are specified under the Act. The BIS Act was updated in 2016 to modernize the standards framework.",
+      "category": "Legal",
+      "keywords": ["BIS Act", "legislation", "law", "1986", "2016", "penalties", "provisions", "act and rules"]
+    }
+  ]
+}

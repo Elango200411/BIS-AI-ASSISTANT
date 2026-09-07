@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "description": "Demo knowledge base of BIS hallmarking for BIS Sahayak AI prototype.",
+    "disclaimer": "This is synthetic demo data created for hackathon prototyping. Hallmarking requirements, purity grades, and process details are illustrative. Authoritative hallmarking rules are published by BIS at https://www.bis.gov.in. Hallmarking was made compulsory in phases — verify the current list of mandatory districts.",
+    "version": "0.1.0",
+    "created": "2025-08-26",
+    "total_records": 5
+  },
+  "hallmarking": [
+    {
+      "hallmark_id": "HM-001",
+      "title": "Gold Hallmarking — Purity Grades",
+      "description": "BIS hallmarking of gold jewellery certifies the purity of gold content. Gold purity is measured in carats (K) or fineness. BIS recognises three standard purity grades for gold jewellery.",
+      "purity_grades": [
+        { "grade": "22 Karat (22K)", "fineness": "916", "percentage": "91.6% gold" },
+        { "grade": "18 Karat (18K)", "fineness": "750", "percentage": "75.0% gold" },
+        { "grade": "14 Karat (14K)", "fineness": "585", "percentage": "58.5% gold" }
+      ],
+      "process_summary": "Jewellery submitted to BIS-recognised Assaying and Hallmarking Centre. Purity verified by XRF or fire assay. If compliant, three marks are affixed: BIS logo, purity grade (fineness number), and hallmarking centre's identification mark along with year of hallmarking.",
+      "verification_method": "Consumers can verify hallmark authenticity using the BIS Care mobile application by entering the hallmark number.",
+      "keywords": ["gold hallmark", "gold purity", "22K", "18K", "fineness", "916", "750", "jewellery purity", "XRF testing"]
+    },
+    {
+      "hallmark_id": "HM-002",
+      "title": "Silver Hallmarking — Purity Grades",
+      "description": "BIS hallmarking of silver articles certifies the purity of silver content. Silver purity is expressed as fineness (parts per thousand).",
+      "purity_grades": [
+        { "grade": "Sterling Silver", "fineness": "925", "percentage": "92.5% silver" },
+        { "grade": "Coin Silver", "fineness": "900", "percentage": "90.0% silver" },
+        { "grade": "Fine Silver", "fineness": "999", "percentage": "99.9% silver" }
+      ],
+      "process_summary": "Silver articles submitted to BIS-recognised Assaying and Hallmarking Centre. Purity tested and hallmark affixed if compliant. Includes BIS logo, fineness number, and centre identification mark.",
+      "verification_method": "Verify via BIS Care app or by contacting the hallmarking centre directly.",
+      "keywords": ["silver hallmark", "silver purity", "925", "sterling silver", "fineness", "jewellery", "precious metal"]
+    },
+    {
+      "hallmark_id": "HM-003",
+      "title": "Assaying and Hallmarking Centre Recognition",
+      "description": "BIS recognises assaying and hallmarking centres (AHCs) that meet specified competence criteria. These centres are authorised to test and hallmark gold and silver articles under the BIS hallmarking scheme.",
+      "recognition_requirements": [
+        "ISO/IEC 17025 accreditation for testing",
+        "XRF or fire assay equipment capability",
+        "Qualified and trained assayers",
+        "Quality management system per BIS requirements",
+        "Traceability of measurements to national standards"
+      ],
+      "centre_obligations": [
+        "Maintain accuracy and traceability of assaying results",
+        "Keep records of all articles assayed and hallmarked",
+        "Report hallmarking data to BIS periodically",
+        "Allow BIS surveillance audits"
+      ],
+      "keywords": ["hallmarking centre", "AHC", "assaying", "ISO 17025", "XRF", "fire assay", "BIS recognition", "jewellery testing"]
+    },
+    {
+      "hallmark_id": "HM-004",
+      "title": "Compulsory Hallmarking — District Coverage",
+      "description": "The Government of India has progressively expanded compulsory hallmarking of gold jewellery and artefacts. The list of districts where hallmarking is mandatory has been expanded in phases.",
+      "key_points": [
+        "Compulsory hallmarking was first notified in 2021 for 256 districts",
+        "Coverage expanded in subsequent phases",
+        "Both jewellers and customers are expected to ensure hallmarked gold jewellery",
+        "Exemptions apply for certain categories (e.g., articles weighing below specified limits, exports)"
+      ],
+      "exemptions": [
+        "Jewellery for export",
+        "Jewellery weighing below minimum threshold (verify current BIS notification)",
+        "Special occasion or religious jewellery as notified"
+      ],
+      "keywords": ["compulsory hallmarking", "mandatory hallmarking", "districts", "gold jewellery", "government notification", "exemptions"]
+    },
+    {
+      "hallmark_id": "HM-005",
+      "title": "BIS Hallmarking Marks — Identification Guide",
+      "description": "A BIS-hallmarked article carries three distinct marks. Understanding these marks helps consumers verify the authenticity and purity of their gold or silver jewellery.",
+      "marks_on_article": [
+        {
+          "mark": "BIS Logo",
+          "description": "The Bureau of Indian Standards logo (triangle shape with 'BIS' text) indicating the article has been hallmarked at a BIS-recognised centre."
+        },
+        {
+          "mark": "Purity Grade (Fineness Number)",
+          "description": "A three-digit number (e.g., 916, 750, 585 for gold; 925, 900 for silver) indicating the purity of the precious metal."
+        },
+        {
+          "mark": "Hallmarking Centre's Identification Mark",
+          "description": "A unique mark or code identifying the BIS-recognised Assaying and Hallmarking Centre that tested and hallmarked the article, along with the year of hallmarking."
+        }
+      ],
+      "keywords": ["hallmark marks", "BIS logo", "fineness number", "centre mark", "jewellery identification", "verify hallmark"]
+    }
+  ]
+}
